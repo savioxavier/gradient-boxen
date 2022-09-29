@@ -18,13 +18,15 @@ Using [npm](https://www.npmjs.com/)
 npm i gradient-boxen
 ```
 
-> Please note that this package is ESM only. Please check out [this guide](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) on how to convert your project to ESM
+> **Note**
+> This package is ESM only. Please check out [this guide](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) on how to convert your project to ESM
 
 ---
 
 ## 🔗 Usage
 
-> Please note that this package will properly display gradient boxes only in terminals with [TrueColor](https://en.wikipedia.org/wiki/Color_depth#True_color_(24-bit)) support, ie, 16 million colors, in order to properly display the gradients
+> **Note**
+> This package will properly display gradient boxes only in terminals with [TrueColor](https://en.wikipedia.org/wiki/Color_depth#True_color_(24-bit)) support, ie, 16 million colors, in order to properly display the gradients. This should work alright in most terminal and shells
 
 - Using an array of gradient colors
 
@@ -92,7 +94,8 @@ Type: `string`
 
 Text inside the box. Can be multiline too.
 
-> Please note that all pre-existing ANSI colors are stripped from the text, so that the gradient can be properly displayed
+> **Warning**
+> All pre-existing ANSI colors are stripped from the text, so that the gradient can be properly displayed
 
 #### boxOptions
 
