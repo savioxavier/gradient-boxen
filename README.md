@@ -18,6 +18,8 @@ Using [npm](https://www.npmjs.com/)
 npm i gradient-boxen
 ```
 
+> Please note that this package is ESM only. Please check out [this guide](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) on how to convert your project to ESM
+
 ---
 
 ## 🔗 Usage
