@@ -1,0 +1,44 @@
+{
+  "name": "gradient-boxen",
+  "version": "0.0.0",
+  "description": "A combo of gradient-string + boxen",
+  "exports": "./index.js",
+  "type": "module",
+  "repository": "savioxavier/gradient-boxen",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "box",
+    "gradient",
+    "boxes",
+    "terminal",
+    "term",
+    "console",
+    "ascii",
+    "unicode",
+    "border",
+    "text"
+  ],
+  "author": {
+    "name": "Savio Xavier",
+    "email": "savioxavier112@gmail.com",
+    "url": "https://github.com/savioxavier"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "common-tags": "^1.8.2",
+    "gradient-string": "^2.0.2",
+    "strip-ansi": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
