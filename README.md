@@ -59,6 +59,15 @@ console.log(
   )
 );
 ```
+<details>
+
+<summary>List of available presets</summary>
+
+![Presets](https://camo.githubusercontent.com/e6afd27113a963ec77568597457b13ec43cd76c31a02e6dad7aeb8553733c578/687474703a2f2f6269742e6c792f3275467967724c)
+
+These presets have been ported from [gradient-string](https://github.com/bokub/gradient-string#available-built-in-gradients)
+
+</details>
 
 ---
 
@@ -100,11 +109,13 @@ Options include:
 }
 ```
 
-### gradientOptions
+#### gradientOptions
 
 Type: `string` or `string[]`
 
 The gradient preset (or a set of gradients) to be used for the box. Can be a string or an array of valid color codes.
+
+A list of presets can be found [here](https://github.com/bokub/gradient-string#available-built-in-gradients)
 
 ---
 
