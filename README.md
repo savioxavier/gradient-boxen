@@ -42,6 +42,10 @@ console.log(
 );
 ```
 
+Output:
+
+![image](https://user-images.githubusercontent.com/38729705/193009542-ef7ac6dd-4e60-484c-979b-172bf2337d63.png)
+
 - Using a predefined preset
 
 ```js
@@ -59,6 +63,11 @@ console.log(
   )
 );
 ```
+
+Output:
+
+![image](https://user-images.githubusercontent.com/38729705/193009624-e777c4c7-4613-4116-aa3d-f45b42165332.png)
+
 <details>
 
 <summary>List of available presets</summary>
@@ -87,7 +96,7 @@ Text inside the box. Can be multiline too.
 
 Type: `object`
 
-The configuration options for the box as per the [boxen options](https://github.com/sindresorhus/boxen#options) package
+The configuration options for the box as per the [boxen](https://github.com/sindresorhus/boxen#options) package
 
 Options include:
 
