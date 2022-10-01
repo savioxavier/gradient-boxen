@@ -6,7 +6,8 @@
   "type": "module",
   "repository": "savioxavier/gradient-boxen",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "ts-node example/main.js"
   },
   "keywords": [
     "cli",
@@ -28,15 +29,20 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@types/common-tags": "^1.8.1",
+    "@types/gradient-string": "^1.1.2",
     "boxen": "^7.0.0",
     "common-tags": "^1.8.2",
     "gradient-string": "^2.0.2",
     "strip-ansi": "^7.0.1"
   },
   "devDependencies": {
+    "@types/node": "^18.7.23",
     "eslint": "^8.24.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.26.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
   },
   "engines": {
     "node": ">=14.16"
