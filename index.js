@@ -87,7 +87,7 @@ function handleAllErrors(boxText, boxOptions, gradientOptions) {
  *  })
  * );
  */
-function gradientBox(boxText, boxOptions, gradientOptions) {
+function gradientBox(boxText, boxOptions={borderStyle:'round', padding:0.75, marging:0.75}, gradientOptions=['#11998e', '#38ef7d']) {
 	handleAllErrors(boxText, boxOptions, gradientOptions);
 
 	if (typeof gradientOptions === 'string') {
