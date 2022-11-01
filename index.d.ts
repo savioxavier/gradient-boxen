@@ -17,4 +17,8 @@ export default gradientBox;
  *  })
  * );
  */
-declare function gradientBox(boxText: string, boxOptions: any, gradientOptions: string | string[]): string;
+declare function gradientBox(
+  boxText: string,
+  boxOptions?: any,
+  gradientOptions?: string | string[]
+): string;
